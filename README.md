@@ -109,3 +109,7 @@ Both sorting algorithms switch to insertion sort for very small subarrays.
 ### Building and Testing  
 ```bash
 mvn clean compile test
+
+### Running Benchmarks
+```bash
+mvn compile exec:java -Dexec.mainClass="algorithms.MetricsCollector"
